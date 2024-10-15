@@ -16,6 +16,6 @@
 # Modify default theme
 #sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' feeds/luci/collections/luci/Makefile
 
-# Modify hostname
-#sed -i 's/OpenWrt/P3TERX-Router/g' package/base-files/files/bin/config_generate
+ Modify hostname
+sed -i 's/OpenWrt/P3TERX-Router/g' package/base-files/files/bin/config_generate
 
